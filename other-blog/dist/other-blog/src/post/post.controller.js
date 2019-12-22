@@ -8,22 +8,28 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+var __param = (this && this.__param) || function (paramIndex, decorator) {
+    return function (target, key) { decorator(target, key, paramIndex); }
+};
 Object.defineProperty(exports, "__esModule", { value: true });
-const typegoose_1 = require("@typegoose/typegoose");
+const common_1 = require("@nestjs/common");
 const swagger_1 = require("@nestjs/swagger");
-const class_validator_1 = require("class-validator");
-class Post {
-}
-__decorate([
-    swagger_1.ApiProperty({ description: '帖子标题', example: '帖子标题1' }),
-    class_validator_1.IsNotEmpty({ message: '请输入标题' }),
-    typegoose_1.prop(),
-    __metadata("design:type", String)
-], Post.prototype, "title", void 0);
-__decorate([
-    swagger_1.ApiProperty({ description: '帖子内容', example: '帖子内容1' }),
-    typegoose_1.prop(),
-    __metadata("design:type", String)
-], Post.prototype, "content", void 0);
-exports.Post = Post;
-//# sourceMappingURL=post.model.js.map
+const nestjs_mongoose_crud_1 = require("nestjs-mongoose-crud");
+const post_model_1 = require("./post.model");
+const nestjs_typegoose_1 = require("nestjs-typegoose");
+let PostController = class PostController {
+    constructor(model) {
+        this.model = model;
+    }
+};
+PostController = __decorate([
+    nestjs_mongoose_crud_1.Crud({
+        model: post_model_1.Post,
+    }),
+    common_1.Controller('post'),
+    swagger_1.ApiTags('帖子'),
+    __param(0, nestjs_typegoose_1.InjectModel(post_model_1.Post)),
+    __metadata("design:paramtypes", [Object])
+], PostController);
+exports.PostController = PostController;
+//# sourceMappingURL=post.controller.js.map

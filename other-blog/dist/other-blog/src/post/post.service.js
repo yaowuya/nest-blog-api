@@ -15,14 +15,22 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const common_1 = require("@nestjs/common");
 const nestjs_typegoose_1 = require("nestjs-typegoose");
 const post_model_1 = require("./post.model");
+const post_model_2 = require("../../../common-blog/src/post/post.model");
 let PostService = class PostService {
-    constructor(PostModel) {
-        this.PostModel = PostModel;
+    constructor(catModel) {
+        this.catModel = catModel;
     }
-    async getPost() {
-        return await this.PostModel.find();
+    async index() {
+        return await post_model_2.PostModel.find();
     }
 };
+__decorate([
+    Get('/'),
+    ApiOperation({ summary: '显示列表接口', description: '列表' }),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", []),
+    __metadata("design:returntype", Promise)
+], PostService.prototype, "index", null);
 PostService = __decorate([
     common_1.Injectable(),
     __param(0, nestjs_typegoose_1.InjectModel(post_model_1.Post)),

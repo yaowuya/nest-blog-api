@@ -9,21 +9,27 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const typegoose_1 = require("@typegoose/typegoose");
+const common_1 = require("@nestjs/common");
+const app_service_1 = require("./app.service");
 const swagger_1 = require("@nestjs/swagger");
-const class_validator_1 = require("class-validator");
-class Post {
-}
+let AppController = class AppController {
+    constructor(appService) {
+        this.appService = appService;
+    }
+    getHello() {
+        return this.appService.getHello();
+    }
+};
 __decorate([
-    swagger_1.ApiProperty({ description: '帖子标题', example: '帖子标题1' }),
-    class_validator_1.IsNotEmpty({ message: '请输入标题' }),
-    typegoose_1.prop(),
-    __metadata("design:type", String)
-], Post.prototype, "title", void 0);
-__decorate([
-    swagger_1.ApiProperty({ description: '帖子内容', example: '帖子内容1' }),
-    typegoose_1.prop(),
-    __metadata("design:type", String)
-], Post.prototype, "content", void 0);
-exports.Post = Post;
-//# sourceMappingURL=post.model.js.map
+    common_1.Get(),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", []),
+    __metadata("design:returntype", String)
+], AppController.prototype, "getHello", null);
+AppController = __decorate([
+    common_1.Controller(),
+    swagger_1.ApiTags('默认'),
+    __metadata("design:paramtypes", [app_service_1.AppService])
+], AppController);
+exports.AppController = AppController;
+//# sourceMappingURL=app.controller.js.map

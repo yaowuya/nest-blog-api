@@ -2,135 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9484073a-ac7b-48f8-9637-236d828952e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/nest-blog-api.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-blog/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-blog/.prettierrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-blog/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-blog/dist/app.controller.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-blog/dist/app.controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-blog/dist/app.controller.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-blog/dist/app.module.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-blog/dist/app.module.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-blog/dist/app.module.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-blog/dist/app.service.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-blog/dist/app.service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-blog/dist/app.service.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-blog/dist/comment/comment.controller.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-blog/dist/comment/comment.controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-blog/dist/comment/comment.controller.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-blog/dist/comment/comment.model.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-blog/dist/comment/comment.model.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-blog/dist/comment/comment.model.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-blog/dist/comment/comment.module.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-blog/dist/comment/comment.module.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-blog/dist/comment/comment.module.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-blog/dist/comment/comment.service.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-blog/dist/comment/comment.service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-blog/dist/comment/comment.service.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-blog/dist/main.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-blog/dist/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-blog/dist/main.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-blog/dist/post/post.controller.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-blog/dist/post/post.controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-blog/dist/post/post.controller.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-blog/dist/post/post.model.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-blog/dist/post/post.model.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-blog/dist/post/post.model.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-blog/dist/post/post.module.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-blog/dist/post/post.module.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-blog/dist/post/post.module.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-blog/dist/post/post.service.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-blog/dist/post/post.service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-blog/dist/post/post.service.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-blog/dist/s/co/co.module.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-blog/dist/s/co/co.module.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-blog/dist/s/co/co.module.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-blog/nest-cli.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-blog/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-blog/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-blog/src/app.controller.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-blog/src/app.controller.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-blog/src/app.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-blog/src/app.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-blog/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-blog/src/post/post.controller.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-blog/src/post/post.controller.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-blog/src/post/post.model.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-blog/src/post/post.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-blog/src/post/post.service.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-blog/src/post/post.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-blog/test/app.e2e-spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-blog/test/jest-e2e.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-blog/tsconfig.build.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-blog/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-blog/tslint.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other-blog/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other-blog/.prettierrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other-blog/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other-blog/dist/app.controller.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other-blog/dist/app.controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other-blog/dist/app.controller.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other-blog/dist/app.module.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other-blog/dist/app.module.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other-blog/dist/app.module.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other-blog/dist/app.service.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other-blog/dist/app.service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other-blog/dist/app.service.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other-blog/dist/comment/comment.controller.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other-blog/dist/comment/comment.controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other-blog/dist/comment/comment.controller.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other-blog/dist/comment/comment.model.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other-blog/dist/comment/comment.model.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other-blog/dist/comment/comment.model.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other-blog/dist/comment/comment.module.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other-blog/dist/comment/comment.module.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other-blog/dist/comment/comment.module.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other-blog/dist/comment/comment.service.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other-blog/dist/comment/comment.service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other-blog/dist/comment/comment.service.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other-blog/dist/main.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other-blog/dist/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other-blog/dist/main.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other-blog/dist/post/post.controller.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other-blog/dist/post/post.controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other-blog/dist/post/post.controller.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other-blog/dist/post/post.model.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other-blog/dist/post/post.model.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other-blog/dist/post/post.model.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other-blog/dist/post/post.module.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other-blog/dist/post/post.module.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other-blog/dist/post/post.module.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other-blog/dist/post/post.service.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other-blog/dist/post/post.service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other-blog/dist/post/post.service.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other-blog/dist/s/co/co.module.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other-blog/dist/s/co/co.module.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other-blog/dist/s/co/co.module.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other-blog/nest-cli.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other-blog/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other-blog/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other-blog/src/app.controller.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other-blog/src/app.controller.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other-blog/src/app.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other-blog/src/app.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other-blog/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other-blog/src/post/post.controller.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other-blog/src/post/post.controller.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other-blog/src/post/post.model.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other-blog/src/post/post.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other-blog/src/post/post.service.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other-blog/src/post/post.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other-blog/test/app.e2e-spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other-blog/test/jest-e2e.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other-blog/tsconfig.build.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other-blog/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other-blog/tslint.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/other-blog/dist/post/post.controller.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/other-blog/dist/post/post.controller.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/other-blog/dist/post/post.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/other-blog/dist/post/post.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/other-blog/dist/post/post.controller.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/other-blog/dist/post/post.controller.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/other-blog/dist/post/post.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/other-blog/dist/post/post.model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/other-blog/dist/post/post.model.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/other-blog/dist/post/post.model.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/other-blog/dist/post/post.service.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/other-blog/dist/post/post.service.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/other-blog/dist/post/post.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/other-blog/dist/post/post.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/other-blog/dist/post/post.service.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/other-blog/dist/post/post.service.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/other-blog/src/post/post.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/other-blog/src/post/post.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/other-blog/src/post/post.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/other-blog/src/post/post.model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/other-blog/src/post/post.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/other-blog/src/post/post.service.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -158,8 +40,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/other-blog/src/post/post.module.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="96">
+              <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -170,10 +52,22 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/other-blog/src/post/post.controller.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="144">
+              <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
               <folding>
-                <element signature="e#0#86#0" expanded="true" />
+                <element signature="e#0#42#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/other-blog/src/post/post.service.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="11" column="43" lean-forward="true" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+              <folding>
+                <element signature="e#0#42#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -182,19 +76,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/other-blog/src/post/post.model.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/other-blog/src/app.module.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+            <state relative-caret-position="144">
+              <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
               <folding>
-                <element signature="e#0#38#0" expanded="true" />
+                <element signature="e#0#41#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -220,9 +105,10 @@
         <option value="$PROJECT_DIR$/other-blog/README.md" />
         <option value="$PROJECT_DIR$/other-blog/src/main.ts" />
         <option value="$PROJECT_DIR$/common-blog/src/main.ts" />
-        <option value="$PROJECT_DIR$/other-blog/src/post/post.module.ts" />
         <option value="$PROJECT_DIR$/other-blog/src/app.module.ts" />
+        <option value="$PROJECT_DIR$/other-blog/src/post/post.module.ts" />
         <option value="$PROJECT_DIR$/other-blog/src/post/post.model.ts" />
+        <option value="$PROJECT_DIR$/other-blog/src/post/post.service.ts" />
         <option value="$PROJECT_DIR$/other-blog/src/post/post.controller.ts" />
       </list>
     </option>
@@ -258,6 +144,24 @@
             <path>
               <item name="nest-blog-api" type="b2602c69:ProjectViewProjectNode" />
               <item name="nest-blog-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nest-blog-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nest-blog-api" type="462c0819:PsiDirectoryNode" />
+              <item name="common-blog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nest-blog-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nest-blog-api" type="462c0819:PsiDirectoryNode" />
+              <item name="common-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nest-blog-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nest-blog-api" type="462c0819:PsiDirectoryNode" />
+              <item name="common-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="post" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="nest-blog-api" type="b2602c69:ProjectViewProjectNode" />
@@ -324,12 +228,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576989242029</updated>
-      <workItem from="1576989243580" duration="3225000" />
+      <workItem from="1576989243580" duration="6232000" />
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1576992680830</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576992680830</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3225000" />
+    <option name="totallyTimeSpent" value="6232000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -341,7 +253,7 @@
       <window_info anchor="bottom" id="TypeScript" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.34991118" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.36056837" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -358,6 +270,10 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
@@ -373,9 +289,6 @@
           <second_editor />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/other-blog/src/app.service.ts">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/common-blog/tsconfig.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -415,16 +328,6 @@
     <entry file="file://$PROJECT_DIR$/other-blog/tslint.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/other-blog/src/post/post.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/other-blog/src/main.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -449,16 +352,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/other-blog/src/post/post.model.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/other-blog/src/app.service.ts">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/other-blog/src/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
+        <state relative-caret-position="192">
           <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
@@ -466,12 +365,77 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/other-blog/src/post/post.controller.ts">
+    <entry file="file://$PROJECT_DIR$/other-blog/src/app.controller.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other-blog/src/post/post.module.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
           <folding>
-            <element signature="e#0#86#0" expanded="true" />
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other-blog/node_modules/@types/mongoose/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="2994" column="45" selection-start-line="2994" selection-start-column="34" selection-end-line="2994" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other-blog/src/post/post.model.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-blog/src/app.controller.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-72">
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other-blog/src/post/post.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="11" column="43" lean-forward="true" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-blog/src/post/post.controller.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="21" column="3" lean-forward="true" selection-start-line="17" selection-start-column="2" selection-end-line="21" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#88#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other-blog/src/post/post.controller.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
           </folding>
         </state>
       </provider>

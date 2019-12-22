@@ -9,21 +9,17 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const typegoose_1 = require("@typegoose/typegoose");
-const swagger_1 = require("@nestjs/swagger");
-const class_validator_1 = require("class-validator");
+const typegoose_1 = require("@hasezoey/typegoose");
 class Post {
 }
 __decorate([
-    swagger_1.ApiProperty({ description: '帖子标题', example: '帖子标题1' }),
-    class_validator_1.IsNotEmpty({ message: '请输入标题' }),
     typegoose_1.prop(),
     __metadata("design:type", String)
 ], Post.prototype, "title", void 0);
 __decorate([
-    swagger_1.ApiProperty({ description: '帖子内容', example: '帖子内容1' }),
     typegoose_1.prop(),
     __metadata("design:type", String)
 ], Post.prototype, "content", void 0);
 exports.Post = Post;
+exports.PostModel = typegoose_1.getModelForClass(Post);
 //# sourceMappingURL=post.model.js.map

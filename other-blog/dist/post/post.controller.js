@@ -14,14 +14,26 @@ var __param = (this && this.__param) || function (paramIndex, decorator) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const common_1 = require("@nestjs/common");
 const swagger_1 = require("@nestjs/swagger");
-const nestjs_typegoose_1 = require("nestjs-typegoose");
-const post_model_1 = require("./post.model");
 const nestjs_mongoose_crud_1 = require("nestjs-mongoose-crud");
+const post_model_1 = require("./post.model");
+const nestjs_typegoose_1 = require("nestjs-typegoose");
+const post_service_1 = require("./post.service");
 let PostController = class PostController {
-    constructor(model) {
+    constructor(model, postService) {
         this.model = model;
+        this.postService = postService;
+    }
+    async index() {
+        return await this.postService.getPost();
     }
 };
+__decorate([
+    common_1.Get('/getPost/'),
+    swagger_1.ApiOperation({ summary: '自定义接口', description: '列表' }),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", []),
+    __metadata("design:returntype", Promise)
+], PostController.prototype, "index", null);
 PostController = __decorate([
     nestjs_mongoose_crud_1.Crud({
         model: post_model_1.Post,
@@ -29,7 +41,7 @@ PostController = __decorate([
     common_1.Controller('post'),
     swagger_1.ApiTags('帖子'),
     __param(0, nestjs_typegoose_1.InjectModel(post_model_1.Post)),
-    __metadata("design:paramtypes", [Object])
+    __metadata("design:paramtypes", [Object, post_service_1.PostService])
 ], PostController);
 exports.PostController = PostController;
 //# sourceMappingURL=post.controller.js.map
